@@ -1,12 +1,205 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <style>
+        .mastermind {}
+
+        .row {
+            display: flex;
+        }
+
+        .dot {
+            width: 16.6666%;
+            height: 2rem;
+        }
+
+        @media screen and (min-width: 500px) {
+            [data-mq1~="red"] {
+                background: red;
+            }
+
+            [data-mq1~="orange"] {
+                background: orange;
+            }
+
+            [data-mq1~="yellow"] {
+                background: yellow;
+            }
+
+            [data-mq1~="green"] {
+                background: green;
+            }
+
+            [data-mq1~="blue"] {
+                background: blue;
+            }
+
+            [data-mq1~="violet"] {
+                background: violet;
+            }
+        }
+
+        @media screen and (min-width: 750px) {
+            [data-mq2~="red"] {
+                background: red;
+            }
+
+            [data-mq2~="orange"] {
+                background: orange;
+            }
+
+            [data-mq2~="yellow"] {
+                background: yellow;
+            }
+
+            [data-mq2~="green"] {
+                background: green;
+            }
+
+            [data-mq2~="blue"] {
+                background: blue;
+            }
+
+            [data-mq2~="violet"] {
+                background: violet;
+            }
+        }
+
+        @media screen and (min-width: 1000px) {
+            [data-mq3~="red"] {
+                background: red;
+            }
+
+            [data-mq3~="orange"] {
+                background: orange;
+            }
+
+            [data-mq3~="yellow"] {
+                background: yellow;
+            }
+
+            [data-mq3~="green"] {
+                background: green;
+            }
+
+            [data-mq3~="blue"] {
+                background: blue;
+            }
+
+            [data-mq3~="violet"] {
+                background: violet;
+            }
+        }
+
+        @media screen and (min-width: 1250px) {
+            [data-mq4~="red"] {
+                background: red;
+            }
+
+            [data-mq4~="orange"] {
+                background: orange;
+            }
+
+            [data-mq4~="yellow"] {
+                background: yellow;
+            }
+
+            [data-mq4~="green"] {
+                background: green;
+            }
+
+            [data-mq4~="blue"] {
+                background: blue;
+            }
+
+            [data-mq4~="violet"] {
+                background: violet;
+            }
+        }
+
+        @media screen and (min-width: 1500px) {
+            [data-mq5~="red"] {
+                background: red;
+            }
+
+            [data-mq5~="orange"] {
+                background: orange;
+            }
+
+            [data-mq5~="yellow"] {
+                background: yellow;
+            }
+
+            [data-mq5~="green"] {
+                background: green;
+            }
+
+            [data-mq5~="blue"] {
+                background: blue;
+            }
+
+            [data-mq5~="violet"] {
+                background: violet;
+            }
+        }
+
+        @media screen and (min-width: 1750px) {
+            [data-mq6~="red"] {
+                background: red;
+            }
+
+            [data-mq6~="orange"] {
+                background: orange;
+            }
+
+            [data-mq6~="yellow"] {
+                background: yellow;
+            }
+
+            [data-mq6~="green"] {
+                background: green;
+            }
+
+            [data-mq6~="blue"] {
+                background: blue;
+            }
+
+            [data-mq6~="violet"] {
+                background: violet;
+            }
+        }
+    </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<ul>
-    <li><a href="/">Start</a></li>
-    <li><a href="/css_classes.html">CSS Class</a></li>
-    <li><a href="/css_attributes.html">CSS Attributes</a></li>
-</ul>
+
+    <h1>Hello World</h1>
+    <p>I'm hosted with GitHub Pages.</p>
+
+    <ul>
+        <li><a href="/">Start</a></li>
+        <li><a href="/css_classes.html">CSS Class</a></li>
+        <li><a href="/css_attributes.html">CSS Attributes</a></li>
+    </ul>
+
+    <article class="mastermind">
+        <section class="row">
+            <div class="dot" data-mq1="red" data-mq2="orange" data-mq3="yellow" data-mq4="green" data-mq5="blue"
+                data-mq6="violet"></div>
+            <div class="dot" data-mq1="red" data-mq2="orange" data-mq3="yellow" data-mq4="green" data-mq5="blue"
+                data-mq6="violet"></div>
+            <div class="dot" data-mq1="red" data-mq2="orange" data-mq3="yellow" data-mq4="green" data-mq5="blue"
+                data-mq6="violet"></div>
+            <div class="dot" data-mq1="red" data-mq2="orange" data-mq3="yellow" data-mq4="green" data-mq5="blue"
+                data-mq6="violet"></div>
+            <div class="dot" data-mq1="red" data-mq2="orange" data-mq3="yellow" data-mq4="green" data-mq5="blue"
+                data-mq6="violet"></div>
+            <div class="dot" data-mq1="red" data-mq2="orange" data-mq3="yellow" data-mq4="green" data-mq5="blue"
+                data-mq6="violet"></div>
+        </section>
+    </article>
+
 </body>
+
 </html>
